@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body>
+     <main>
+      <article class="product-card">
+        <header class="product-card-img_container">
+          <picture>
+            <source media="(min-width: 1440px)" srcset="images/image-product-desktop.jpg">
+            
+            <img src="images/image-product-mobile.jpg" alt="Square glass bottle of Gabrielle Chanel perfume resting on a neutral surface">
+          </picture>
+        </header>
+        <div class="product-card-content">
+          <span class="product-category">PERFUME</span>
+
+          <h2 class="product-card-title">Gabrielle Essence Eau De Parfum</h2>
+
+          <p class="product-descript">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+          <div class="product-price-container">
+            <span class="current-price">$149.99</span>
+            <span class="old-price">$169.99</span>
+          </div>
+
+          <button type="button" class="product-card-button">
+            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
+            </svg>
+            Add to cart
+          </button>
+        </div>
+      </article>
+      <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+        Coded by <a href="https://www.frontendmentor.io/profile/BlinkyPanoptes" target="_blank" rel="noopener">BlinkyPanoptes</a>.
+     </footer>
+     </main>
+</body>
+</html>
